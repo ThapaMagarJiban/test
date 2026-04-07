@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Task A2 Demo</title>
+</head>
+<body>
+  <h1 id="title">Portfolio Task A2 Demo</h1>
+  <button id="action-btn" type="button">Click me</button>
+  <p id="result">Not clicked</p>
+
+  <script>
+    document.getElementById('action-btn').addEventListener('click', function () {
+      document.getElementById('result').textContent = 'Clicked';
+    });
+  </script>
+</body>
+</html>

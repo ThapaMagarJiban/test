@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-task-a2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio Task A2 repository with TestCafe functional test",
+  "scripts": {
+    "test": "testcafe chrome:headless tests/functional/*.test.js"
+  },
+  "devDependencies": {
+    "testcafe": "^3.6.2"
+  }
+}
