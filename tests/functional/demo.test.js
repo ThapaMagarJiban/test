@@ -1,5 +1,6 @@
 const path = require('path');
 const { pathToFileURL } = require('url');
+const { Selector } = require('testcafe');
 
 const pagePath = pathToFileURL(path.resolve(__dirname, '../../public/index.html')).href;
 
